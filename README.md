@@ -19,12 +19,7 @@ regolith install github.com/TaisenSchettler/regolith-loot-tabler/loot_tabler
     "filterDefinitions": {
       "loot_tabler": {
         "url": "github.com/TaisenSchettler/regolith-loot-tabler/loot_tabler",
-        "settings": {
-          "loot_config_path": "data/loot-config.json",
-          "structures_dir": "./BP/structures",
-          "only_unassigned": true,
-          "report_loot": false
-        }
+        "version": "1.0.0"
       }
     },
     "profiles": {
@@ -39,7 +34,7 @@ regolith install github.com/TaisenSchettler/regolith-loot-tabler/loot_tabler
                 "report_loot": true,
                 "structures_dir": "./BP/structures"
             }
-        },
+          },
         ]
       }
     }
