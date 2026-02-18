@@ -1,7 +1,7 @@
 {
   "name": "regolith-loot-tabler",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "description": "Regolith filter: assign loot tables to .mcstructure files",
   "license": "MIT",
   "dependencies": {
