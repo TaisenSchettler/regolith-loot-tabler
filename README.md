@@ -30,7 +30,16 @@ regolith install github.com/TaisenSchettler/regolith-loot-tabler/loot_tabler
     "profiles": {
       "default": {
         "filters": [
-          { "filter": "loot_tabler" }
+          {
+            "filter": "loot_tabler",
+            "settings": {
+                "diagnostic": true,
+                "loot_config_path": "data/loot-config.json",
+                "only_unassigned": false,
+                "report_loot": true,
+                "structures_dir": "./BP/structures"
+            }
+        },
         ]
       }
     }
