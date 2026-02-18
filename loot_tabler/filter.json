@@ -1,9 +1,9 @@
 {
-  "name": "loot_tabler",
-  "description": "Assign loot tables to Bedrock .mcstructure block entities (Chest/Barrel/etc.) with folder + filename scoping.",
-  "author": "Taisen Schettler",
-  "version": "1.0.0",
-  "license": "MIT",
-  "runWith": "nodejs",
-  "script": "main.js"
+  "description": "Assign loot tables to Bedrock .mcstructure files (Chest, Barrel, BrushableBlock, DecoratedPot) with folder and filename scoping.",
+  "filters": [
+    {
+      "runWith": "nodejs",
+      "script": "./main.js"
+    }
+  ]
 }
