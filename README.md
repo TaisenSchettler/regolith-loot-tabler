@@ -8,15 +8,17 @@ Assign loot tables to Bedrock `.mcstructure` files by:
 ## Install
 
 ```bash
-regolith install github.com/YOURNAME/regolith-loot-tabler/loot_tabler
+regolith install github.com/TaisenSchettler/regolith-loot-tabler/loot_tabler
 ```
+
+## Config
 
 ```json
 {
   "regolith": {
     "filterDefinitions": {
       "loot_tabler": {
-        "url": "github.com/YOURNAME/regolith-loot-tabler/loot_tabler",
+        "url": "github.com/TaisenSchettler/regolith-loot-tabler/loot_tabler",
         "settings": {
           "loot_config_path": "data/loot-config.json",
           "structures_dir": "./BP/structures",
@@ -35,4 +37,6 @@ regolith install github.com/YOURNAME/regolith-loot-tabler/loot_tabler
   }
 }
 ```
+
+An example config can be found at [HERE](https://github.com/TaisenSchettler/regolith-loot-tabler/blob/main/loot_tabler/examples/loot-config.example.json)
 
