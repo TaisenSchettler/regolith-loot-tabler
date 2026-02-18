@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "properties": {
+    "structures_dir": { "type": "string", "default": "./BP/structures" },
+    "loot_config_path": { "type": "string", "default": "data/loot-config.json" },
+    "diagnostic": { "type": "boolean", "default": false },
+    "only_unassigned": { "type": "boolean", "default": false },
+    "report_loot": { "type": "boolean", "default": false }
+  },
+  "additionalProperties": true
+}

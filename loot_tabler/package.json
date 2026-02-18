@@ -1,0 +1,10 @@
+{
+  "name": "regolith-loot-tabler",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Regolith filter: assign loot tables to .mcstructure files",
+  "license": "MIT",
+  "dependencies": {
+    "prismarine-nbt": "^2.7.0"
+  }
+}
