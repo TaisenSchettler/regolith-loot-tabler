@@ -1,0 +1,53 @@
+{
+  "defaults": {
+    "seed": 0,
+    "override_existing": false
+  },
+
+  "global": {
+    "tile_entities": {
+      "DecoratedPot": {
+        "loot_table": "loot_tables/sndbx/vc/chest/decorated_pots_village.json"
+      }
+    }
+  },
+
+  "folders": {
+    "village/plains": {
+      "structure_defaults": {
+        "Chest": "loot_tables/chests/village/village_plains_house.json",
+        "Barrel": "loot_tables/chests/village/village_plains_house.json"
+      },
+      "structure_overrides": {
+        "armorer": {
+          "Chest": "loot_tables/chests/village/village_armorer.json",
+          "Barrel": "loot_tables/chests/village/village_armorer.json"
+        },
+        "butcher": {
+          "Chest": "loot_tables/chests/village/village_butcher.json",
+          "Barrel": "loot_tables/chests/village/village_butcher.json"
+        },
+        "temple": {
+          "Chest": "loot_tables/chests/village/village_temple.json",
+          "Barrel": "loot_tables/chests/village/village_temple.json"
+        }
+      }
+    },
+
+    "village/desert": {
+      "structure_defaults": {
+        "Chest": "loot_tables/chests/village/village_desert_house.json",
+        "Barrel": "loot_tables/chests/village/village_desert_house.json"
+      }
+    },
+
+    "castle": {
+      "structure_defaults": {
+        "Chest": "loot_tables/sndbx/vc/chest/castle.json",
+        "Barrel": "loot_tables/sndbx/vc/chest/castle.json",
+        "DecoratedPot": "loot_tables/sndbx/vc/chest/decorated_pots_castle.json",
+        "BrushableBlock": "loot_tables/sndbx/vc/chest/brushable.json"
+      }
+    }
+  }
+}
