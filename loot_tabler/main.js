@@ -63,9 +63,9 @@ function getRelativeToStructures(filePath, structuresDir) {
 }
 
 function pickFolderRule(config, relToStructures) {
-  // relToStructures like: "sndbx_vc/village/desert/houses/armorer_1.mcstructure"
+  // relToStructures like: "village/desert/houses/armorer_1.mcstructure"
   const folders = config.folders || {};
-  const relDir = normRel(path.dirname(relToStructures)); // "sndbx_vc/village/desert/houses"
+  const relDir = normRel(path.dirname(relToStructures)); // "village/desert/houses"
 
   // find all folder keys that are prefixes of relDir; pick the longest (most specific)
   let bestKey = null;
@@ -341,12 +341,12 @@ async function maybeWriteExampleConfig(settings) {
     global: {
       tile_entities: {
         DecoratedPot: {
-          loot_table: "loot_tables/sndbx_vc/chest/decorated_pots_village.json"
+          loot_table: "loot_tables/chest/decorated_pots_village.json"
         }
       }
     },
     folders: {
-      "sndbx_vc/village/plains": {
+      "village/plains": {
         structure_defaults: {
           Chest: "loot_tables/chests/village/village_plains_house.json",
           Barrel: "loot_tables/chests/village/village_plains_house.json"
@@ -358,12 +358,12 @@ async function maybeWriteExampleConfig(settings) {
           }
         }
       },
-      "sndbx_vc/castle": {
+      "castle": {
         structure_defaults: {
-          Chest: "loot_tables/sndbx_vc/chest/castle.json",
-          Barrel: "loot_tables/sndbx_vc/chest/castle.json",
-          DecoratedPot: "loot_tables/sndbx_vc/chest/decorated_pots_castle.json",
-          BrushableBlock: "loot_tables/sndbx_vc/chest/brushable.json"
+          Chest: "loot_tables/chest/castle.json",
+          Barrel: "loot_tables/chest/castle.json",
+          DecoratedPot: "loot_tables/chest/decorated_pots_castle.json",
+          BrushableBlock: "loot_tables/chest/brushable.json"
         }
       }
     }
