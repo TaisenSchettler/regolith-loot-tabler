@@ -7,7 +7,7 @@
   "global": {
     "tile_entities": {
       "DecoratedPot": {
-        "loot_table": "loot_tables/sndbx/vc/chest/decorated_pots_village.json"
+        "loot_table": "loot_tables/chest/decorated_pots_village.json"
       }
     }
   },
@@ -43,10 +43,10 @@
 
     "castle": {
       "structure_defaults": {
-        "Chest": "loot_tables/sndbx/vc/chest/castle.json",
-        "Barrel": "loot_tables/sndbx/vc/chest/castle.json",
-        "DecoratedPot": "loot_tables/sndbx/vc/chest/decorated_pots_castle.json",
-        "BrushableBlock": "loot_tables/sndbx/vc/chest/brushable.json"
+        "Chest": "loot_tables/chest/castle.json",
+        "Barrel": "loot_tables/chest/castle.json",
+        "DecoratedPot": "loot_tables/chest/decorated_pots_castle.json",
+        "BrushableBlock": "loot_tables/chest/brushable.json"
       }
     }
   }
